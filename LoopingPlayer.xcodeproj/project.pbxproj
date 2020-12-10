@@ -11,6 +11,8 @@
 		1D3E4C94258233790019E1DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4C93258233790019E1DD /* ContentView.swift */; };
 		1D3E4C962582337F0019E1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E4C952582337F0019E1DD /* Assets.xcassets */; };
 		1D3E4C992582337F0019E1DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E4C982582337F0019E1DD /* Preview Assets.xcassets */; };
+		1D3E4CA3258233C10019E1DD /* Clouds - 1154.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E4CA2258233C10019E1DD /* Clouds - 1154.mp4 */; };
+		1D3E4CA6258233F80019E1DD /* LoopingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4CA5258233F80019E1DD /* LoopingPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1D3E4C952582337F0019E1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3E4C982582337F0019E1DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D3E4C9A2582337F0019E1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3E4CA2258233C10019E1DD /* Clouds - 1154.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Clouds - 1154.mp4"; sourceTree = "<group>"; };
+		1D3E4CA5258233F80019E1DD /* LoopingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		1D3E4C90258233790019E1DD /* LoopingPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				1D3E4CA1258233A60019E1DD /* Assets */,
 				1D3E4C91258233790019E1DD /* LoopingPlayerApp.swift */,
 				1D3E4C93258233790019E1DD /* ContentView.swift */,
 				1D3E4C952582337F0019E1DD /* Assets.xcassets */,
 				1D3E4C9A2582337F0019E1DD /* Info.plist */,
 				1D3E4C972582337F0019E1DD /* Preview Content */,
+				1D3E4CA5258233F80019E1DD /* LoopingPlayer.swift */,
 			);
 			path = LoopingPlayer;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				1D3E4C982582337F0019E1DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D3E4CA1258233A60019E1DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E4CA2258233C10019E1DD /* Clouds - 1154.mp4 */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3E4C992582337F0019E1DD /* Preview Assets.xcassets in Resources */,
+				1D3E4CA3258233C10019E1DD /* Clouds - 1154.mp4 in Resources */,
 				1D3E4C962582337F0019E1DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				1D3E4C94258233790019E1DD /* ContentView.swift in Sources */,
 				1D3E4C92258233790019E1DD /* LoopingPlayerApp.swift in Sources */,
+				1D3E4CA6258233F80019E1DD /* LoopingPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
